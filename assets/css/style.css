@@ -1,19 +1,23 @@
+html {
+    font-size: calc(1em + 1vw);
+}
+
 * {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  background-color: #858687;
+    background-color: #858687;
 }
 
 h2 {
     font-family: 'Gill Sans';
-    font-size: 12px;
+    font-size: 1em;
     font-weight: 300;
     color: #D9D9D9;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.25em;
     margin-top: 0;
     margin-right: 100px;
     margin-bottom: 18px;
@@ -21,7 +25,7 @@ h2 {
 
 p {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 12px;
+    font-size: 1em;
     color: #D9D9D9;
     font-weight: 300;
     margin-top: 0;
