@@ -10,7 +10,7 @@ h2 {
 }
 
 p {
-    font-family: 'Garamond';
+    font-family: 'Cormorant Garamond', serif;
     font-size: 12px;
     margin-bottom: 18px;
 }
@@ -25,12 +25,12 @@ footer {
   position: absolute;
   bottom: 0;
   width: 50%;
-  
-  .column {
-    float: left;
-  }
-  
-  .left {
-    width: 40%;
-  }
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 40%;
 }
