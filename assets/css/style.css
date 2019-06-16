@@ -13,6 +13,7 @@ h2 {
     font-weight: 300;
     color: #D9D9D9;
     text-transform: uppercase;
+    margin-right: 100px;
     margin-bottom: 18px;
 }
 
@@ -38,7 +39,7 @@ footer {
 }
 
 .social {
-    color: #D9D9D9;
+    fill: #D9D9D9;
     width: 15px;
     height: 15px;
     margin-right: 18px;
