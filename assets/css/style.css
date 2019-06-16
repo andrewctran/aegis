@@ -56,3 +56,9 @@ footer {
 .left {
     margin-right: 100px;
 }
+
+.copyright {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 36px;
+}
