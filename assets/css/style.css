@@ -6,11 +6,13 @@ h2 {
     font-family: 'Gill Sans';
     font-size: 12px;
     text-transform: uppercase;
+    margin-bottom: 18px;
 }
 
 p {
     font-family: 'Garamond';
     font-size: 12px;
+    margin-bottom: 18px;
 }
 
 header {
@@ -22,9 +24,13 @@ footer {
   padding: 36px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 50%;
   
   .column {
     float: left;
+  }
+  
+  .left {
+    width: 40%;
   }
 }
