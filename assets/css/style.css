@@ -2,15 +2,6 @@ body {
   background-color: #858687;
 }
 
-h1 {
-    font-family: 'Gill Sans';
-    font-size: 36px;
-    
-    .scaled {
-        font-size: 18px;
-    }
-}
-
 h2 {
     font-family: 'Gill Sans';
     font-size: 12px;
@@ -22,7 +13,11 @@ p {
     font-size: 12px;
 }
 
-.header {
+header {
     overflow: hidden;
     padding: 36px;
+}
+
+footer {
+  padding: 36px;
 }
