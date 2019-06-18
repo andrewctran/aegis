@@ -28,6 +28,10 @@ p {
     margin-bottom: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     overflow: hidden;
     padding: 36px;
