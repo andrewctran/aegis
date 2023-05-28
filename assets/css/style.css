@@ -21,7 +21,7 @@ h2 {
 
 p {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 12px;
+    font-size: 20px;
     color: #F4F4F4;
     font-weight: 300;
     margin-top: 0;
@@ -39,9 +39,10 @@ header {
 
 footer {
     padding: 36px;
-    position: absolute;
+    /*position: absolute;*/  
     bottom: 0;
     overflow: hidden;
+    margin-top: 80px;
 }
 
 .social {
@@ -51,6 +52,12 @@ footer {
 
 .column {
     float: left;
+    margin-bottom: 36px;
+}
+
+.row {
+    float: bottom;
+    margin-bottom: 36px;
 }
 
 .left {
@@ -61,8 +68,20 @@ footer {
     margin-bottom: 36px;
 }
 
+a img {
+    height: 96px;
+}
+
+.image-inline {
+    height: 96px;
+}
+
+.cta {
+    color: #F4F4F4;
+    text-decoration: solid underline #F4F4F4 0.8px;
+}
+
 .copyright {
-    position: fixed;
     bottom: 0;
     padding-bottom: 36px;
 }
