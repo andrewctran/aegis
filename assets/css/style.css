@@ -85,3 +85,15 @@ a img {
     bottom: 0;
     padding-bottom: 36px;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+}
+
+.social {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
